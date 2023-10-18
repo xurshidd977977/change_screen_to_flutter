@@ -13,8 +13,11 @@ class SecondScreen extends StatelessWidget {
       body: Container(
         child: Column(
           children: [
-            Image(image: AssetImage('assets/biden.jpg'),),
-      Text("CNN Biden offers message for Kim Jong Un as he prepares to wrap first leg of his Asia trip - CNN")
+            Image(
+              image: AssetImage('assets/biden.jpg'),
+            ),
+            Text(
+                "CNN Biden offers message for Kim Jong Un as he prepares to wrap first leg of his Asia trip - CNN")
           ],
         ),
         // child: ElevatedButton(

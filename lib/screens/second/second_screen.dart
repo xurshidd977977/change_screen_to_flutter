@@ -8,7 +8,7 @@ class SecondScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          // title: const Text('Setting Screen'),
+          title: const Text('CNN'),
           ),
       body: Container(
         child: Column(
@@ -20,18 +20,7 @@ class SecondScreen extends StatelessWidget {
                 "CNN Biden offers message for Kim Jong Un as he prepares to wrap first leg of his Asia trip - CNN")
           ],
         ),
-        // child: ElevatedButton(
-        //   // Within the SecondScreen widget
-        //   onPressed: () {
-        //     // Navigate back to the first screen by popping the current route
-        //     // off the stack.
-        //     Text("");
-        //     Navigator.pop(context);
-        //   },
-        //
-        //   child: const Text('Go back!'),
-        // ),
-      ),
+      )
     );
   }
 }
